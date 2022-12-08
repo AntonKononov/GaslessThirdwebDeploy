@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  color:#262936;
+  font-weight: 600;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.contractBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border: 1px solid #262936;
+  cursor: pointer;
+  width: 19%;
+  height: 200px;
+  color:#262936;
+  margin-top: 16px;
+  padding-top: 25px;
+}
+
+.contractBoxGrid {
+  width: 1200px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+.img-holder {
+  float: left;
+}
+
+.img {
+  height: 175px;
+  object-fit: cover;
+  border: 3px dashed rgb(204, 204, 204);
+}
+checkbox:focus{
+  border:1px solid red;
+}
+.userName,
+.moduletitle {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formBackground {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.titleStyle {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px !important;
+}
+
+.fileText {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.clear {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.fileFloat {
+  float: left;
+  margin: 70px 10px;
+}
+
+.btnStyle {
+  background-color: #eee;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.marginTop15 {
+  margin-top: 15px !important;
+}
+
+.checkbox {
+  padding-right: 0px !important;
+}
+
+.checkbox.label {
+  padding-left: 0px !important;
+  margin-left: 10px !important;
+}
+
+.form-check-input {
+  margin-left: -1rem;
+}
+
+.iconplus {
+  color: green;
+  font-size: 22px;
+  top: -7px;
+  position: absolute;
+  left: 85px;
+  cursor: pointer;
+}
+
+.iconminus {
+  color: #dc3545;
+  font-size: 30px;
+}
+
+.nav-item .nav-link.active {
+  color: blue !important;
+}
+
+.logoFloat {
+  float: left;
+}
+
+.img-holder {
+  float: left;
+}
+
+.logofile {
+  width: 80% !important;
+  margin-top: 10px;
+}
